@@ -1,0 +1,17 @@
+{
+  "name": "html-to-pdf",
+  "version": "1.0.0",
+  "description": "simple script to convert all .html (iso-8859-2 encoding) files in given dir into pdf",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mister-gnommer",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^22.7.4",
+    "iconv-lite": "^0.6.3",
+    "puppeteer": "^23.4.1",
+    "typescript": "^5.6.2"
+  }
+}
